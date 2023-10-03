@@ -41,9 +41,9 @@ namespace XeggexReleaseBalance
         {
             var apiUrl = "https://api.xeggex.com/api/v2";
 
-            var nonConvert = new[] { "PDN", "SKY", "USDT" };
+            var nonConvert = new[] { "PDN", "SKYDOGE", "USDT" };
             var convertToToken = new[] {
-                new convertToken { asset = "USDT", minimalSum = 0.0001  },
+                new convertToken { asset = "USDT", minimalSum = 0/*.0001*/  },
                 new convertToken { asset = "BNB", minimalSum = 0.000005  },
                 new convertToken { asset = "DOGE", minimalSum = 0.002  },
                 new convertToken { asset = "USDC", minimalSum = 0.0001  },
